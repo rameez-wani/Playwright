@@ -1,0 +1,25 @@
+{
+  "cookies": [
+    {
+      "name": "sessionid",
+      "value": "uh13hpto5hr5ifre0plw0o0g3ttusqwz",
+      "domain": "kalorex-dev.projectspreview.net",
+      "path": "/",
+      "expires": 1765462025.228105,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://kalorex-dev.projectspreview.net",
+      "localStorage": [
+        {
+          "name": "optionsObject",
+          "value": "{\"headerBackground\":\"header-white\",\"navigationBackground\":\"sidebar-light\",\"menuDropdownIcon\":\"icon-style-1\",\"menuListIcon\":\"icon-list-style-1\",\"welcomemodal\":\"show\"}"
+        }
+      ]
+    }
+  ]
+}
