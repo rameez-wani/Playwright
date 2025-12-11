@@ -14,5 +14,5 @@ test('Search entity', async ({ page }) => {
    await expect(page.locator(created.randomText)).toBeVisible();
    await expect(page.locator(created.randomPhone)).toBeVisible();
    await expect(page.locator(created.email)).toBeVisible();
-  
+  await page.waitForTimeout(5000);
 });
