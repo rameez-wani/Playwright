@@ -2,10 +2,10 @@
   "cookies": [
     {
       "name": "sessionid",
-      "value": "cm1p17b3cjtuhyj85jgyu593rxqkxwdk",
+      "value": "9kw46uk13msdge2lk3k1gxql3aldrwqt",
       "domain": "kalorex-dev.projectspreview.net",
       "path": "/",
-      "expires": 1765540756.026746,
+      "expires": 1765549129.171843,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Lax"
