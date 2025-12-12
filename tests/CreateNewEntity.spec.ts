@@ -25,8 +25,8 @@ test('test', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Contact Number *' }).click();
   await page.getByRole('textbox', { name: 'Contact Number *' }).fill(randomPhone);
   await page.waitForTimeout(2000);
-  await page.getByRole('textbox', { name: 'Gender' }).click();
-  await page.getByRole('treeitem', { name: 'Male', exact: true }).click();
+  await page.locator('#select2-gender-container').click();
+  await page.getByRole('treeitem', { name: 'Female', exact: true }).click();
   await page.getByRole('textbox', { name: 'Full Name of the Entity *' }).click();
   await page.getByRole('textbox', { name: 'Full Name of the Entity *' }).fill('University of Thailand');
   await page.getByText('Select Type of Entity').click();
